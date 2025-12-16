@@ -717,6 +717,11 @@ input[name="give_a_hug_donation_amount"][disabled="true"] + label {
   }
 }
 
+// Hide modal logo on desktop by default (only for standalone donation modal)
+#standalone-donation-modal .donation-modal-logo-mobile {
+  display: none;
+}
+
 /* Desktops and above */
 @media only screen and (min-width: 1024px) {
   .masonry-grid {
@@ -802,8 +807,39 @@ input[name="give_a_hug_donation_amount"][disabled="true"] + label {
     min-height: auto;
   }
 
+  // Hide footer logo on mobile
+  .footer-logo-desktop {
+    display: none;
+  }
+
+  // Show logo at top of standalone donation modal on mobile
+  #standalone-donation-modal .donation-modal-logo-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem 1rem;
+    background-color: #0ea6df;
+
+    .footer-logo {
+      display: block;
+    }
+  }
+
   // On mobile, don't stack tabs - let each tab size naturally to prevent excess whitespace
   #standalone-donation-modal #tab-contents {
+    display: block;
+
+    .tab-content {
+      display: none !important;
+
+      &.is-active {
+        display: block !important;
+      }
+    }
+  }
+
+  // Also apply tab content display fix to regular donation modal
+  #donation-modal #tab-contents {
     display: block;
 
     .tab-content {
@@ -936,6 +972,26 @@ input[name="give_a_hug_donation_amount"][disabled="true"] + label {
   #donation-amount-five, #donation-amount-amigos {
     flex: none;
     width: 50%;
+  }
+
+  // Stack tabs vertically on small screens for better appearance
+  #donation-modal .tabs.is-toggle,
+  #standalone-donation-modal .tabs.is-toggle {
+    ul {
+      flex-direction: column;
+    }
+
+    li {
+      width: 100%;
+      margin: 0;
+
+      a {
+        width: 100%;
+        justify-content: center;
+        padding: 0.75rem 1rem;
+        border-radius: 0;
+      }
+    }
   }
 }
 
