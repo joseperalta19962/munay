@@ -83,6 +83,9 @@ a.button.is-secondary, button.is-secondary {
   border: 2px solid $primary-light;
   border-radius: 10px;
 }
+.hover-underline:hover {
+  text-decoration: underline;
+}
 
 /* Site Logo */
 #site-logo {
@@ -674,6 +677,10 @@ input[name="give_a_hug_donation_amount"][disabled="true"] + label {
 }
 
 /* Footer for standalone donation page */
+.font-color-secondary-new {
+  color: $secondary-new;
+}
+
 .footer-content {
   display: flex;
   text-align: center;
