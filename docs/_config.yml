@@ -1,6 +1,7 @@
-title: Hogar Albergue para Niños Jesús de Nazaret
-url: "https://www.hogarjesusdenazaret.org"
+title: Munay
+url: "https://TUUSUARIO.github.io"   # si luego usas dominio propio lo cambiamos
 permalink: "/:path/"
+
 defaults:
   - scope:
       path: ""
@@ -16,6 +17,7 @@ defaults:
       type: noticias
     values:
       layout: noticia
+
 collections:
   carousel_highlights:
   posts:
@@ -30,6 +32,7 @@ collections:
   proximos_eventos:
     output: true
     permalink: "/es/proximos_eventos/:name"
+
 sass:
   style: compressed
   sass_dir: _sass
@@ -45,7 +48,8 @@ feed:
 
 keep_files: [uploads, sw.js]
 
-repository: jnewcs/hogar-nazaret
+# 👇 IMPORTANTE: apunta a TU repo (cámbialo)
+repository: joseperalta19962/munay
 
 plugins:
   - jekyll-feed
