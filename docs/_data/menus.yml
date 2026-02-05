@@ -8,18 +8,8 @@
     - title: ''
       url: ''
   hide: false
-- title: Hugs Marathon
-  url: /en/hug-marathon/
-  contained_links:
-    - /en/hug-marathon/
-  feature_check: give_a_hug
-  lang: en
-  has_dropdown: false
-  children:
-    - title: ''
-      url: ''
-  hide: true
-- title: About Us
+
+- title: About Munay
   has_dropdown: true
   lang: en
   contained_links:
@@ -29,18 +19,19 @@
     - /en/about/board-of-directors/
     - /en/about/collaborators/
   children:
-    - title: The Hogar
+    - title: Munay
       url: /en/about/
     - title: Message from Our Founders
       url: /en/about/founders-message/
     - title: Milestones
       url: /en/about/milestones/
-    - title: Board of Directors
+    - title: Team & Volunteers
       url: /en/about/board-of-directors/
     - title: Collaborators
       url: /en/about/collaborators/
   url: ''
   hide: false
+
 - title: What We Do
   has_dropdown: true
   lang: en
@@ -49,14 +40,15 @@
     - /en/what-we-do/services/
     - /en/what-we-do/child-abuse-education-and-prevention/
   children:
-    - title: Services Reach
+    - title: Impact
       url: /en/what-we-do/
-    - title: Children Services
+    - title: Rescue & Shelter
       url: /en/what-we-do/services/
-    - title: Child Abuse Education and Prevention
+    - title: Education & Awareness
       url: /en/what-we-do/child-abuse-education-and-prevention/
   url: ''
   hide: false
+
 - title: Get Involved!
   has_dropdown: true
   lang: en
@@ -68,20 +60,21 @@
     - /en/get-involved/sponor-an-event/
     - /en/get-involved/create-a-fund/
   children:
-    - title: The Padrinos and Madrinas Program
+    - title: How to Help
       url: /en/get-involved/
-    - title: Donate Articles
+    - title: Donate Supplies
       url: /en/get-involved/donate-articles/
-    - title: Donate Your Time
+    - title: Volunteer
       url: /en/get-involved/donate-time/
-    - title: Visit Us With Your Group
+    - title: Visit Munay
       url: /en/get-involved/visit-with-your-group/
-    - title: Sponsor An Event
+    - title: Sponsor an Event
       url: /en/get-involved/sponor-an-event/
-    - title: Create A Fund
+    - title: Create a Fund
       url: /en/get-involved/create-a-fund/
   url: ''
   hide: false
+
 - title: News
   has_dropdown: true
   hide: false
@@ -99,6 +92,7 @@
       automated_active_link_check: true
   url: ''
   contained_links: []
+
 - title: Contact Us
   has_dropdown: true
   lang: en
@@ -112,6 +106,12 @@
       url: /en/contact-us/press/
   url: ''
   hide: false
+
+
+# =======================
+# ESPAÑOL
+# =======================
+
 - title: Inicio
   url: /es/
   contained_links:
@@ -122,17 +122,7 @@
     - title: ''
       url: ''
   hide: false
-- title: Maratón de Abrazos
-  url: /es/maraton-de-abrazos/
-  contained_links:
-    - /es/maraton-de-abrazos/
-  feature_check: give_a_hug
-  lang: es
-  has_dropdown: false
-  children:
-    - title: ''
-      url: ''
-  hide: true
+
 - title: ¿QUIÉNES SOMOS?
   has_dropdown: true
   lang: es
@@ -143,18 +133,19 @@
     - /es/quienes-somos/junta-de-directores/
     - /es/quienes-somos/colaboradores/
   children:
-    - title: El Hogar
+    - title: Munay
       url: /es/quienes-somos/
-    - title: Mensaje de los Fundadores
+    - title: Mensaje del Fundador
       url: /es/quienes-somos/mensaje-del-fundador/
-    - title: Cronologia Histórica
+    - title: Historia
       url: /es/quienes-somos/historia/
-    - title: Junta Directiva
+    - title: Equipo y Voluntarios
       url: /es/quienes-somos/junta-de-directores/
     - title: Colaboradores
       url: /es/quienes-somos/colaboradores/
   url: ''
   hide: false
+
 - title: ¿QUÉ HACEMOS?
   has_dropdown: true
   lang: es
@@ -163,14 +154,15 @@
     - /es/que-hacemos/servicios/
     - /es/que-hacemos/educacion-y-prevencion-del-maltrato-de-menores/
   children:
-    - title: Alcance
+    - title: Impacto
       url: /es/que-hacemos/
-    - title: Servicios
+    - title: Rescate y Albergue
       url: /es/que-hacemos/servicios/
-    - title: Educación y Prevención del Maltrato de Menores
+    - title: Educación y Conciencia
       url: /es/que-hacemos/educacion-y-prevencion-del-maltrato-de-menores/
   url: ''
   hide: false
+
 - title: ¡CONTRIBUYE!
   has_dropdown: true
   lang: es
@@ -182,20 +174,21 @@
     - /es/contribuye/auspicia-un-evento/
     - /es/contribuye/crea-un-fondo/
   children:
-    - title: Programa de Padrinos y Madrinas
+    - title: Cómo ayudar
       url: /es/contribuye/
-    - title: Dona Artículos
+    - title: Dona artículos
       url: /es/contribuye/donar-articulos/
-    - title: Dona tu Tiempo
+    - title: Dona tu tiempo
       url: /es/contribuye/dona-tu-tiempo/
-    - title: Visítanos con tu Grupo
+    - title: Visítanos
       url: /es/contribuye/visitanos-con-tu-grupo/
-    - title: Auspicia un Evento
+    - title: Auspicia un evento
       url: /es/contribuye/auspicia-un-evento/
-    - title: Crea un Fondo
+    - title: Crea un fondo
       url: /es/contribuye/crea-un-fondo/
   url: ''
   hide: false
+
 - title: Noticias
   has_dropdown: true
   hide: false
@@ -213,6 +206,7 @@
       automated_active_link_check: true
   url: ''
   contained_links: []
+
 - title: CONTÁCTANOS
   has_dropdown: true
   lang: es
@@ -220,7 +214,7 @@
     - /es/contactanos/
     - /es/contactanos/prensa/
   children:
-    - title: Contactos
+    - title: Contacto
       url: /es/contactanos/
     - title: Prensa
       url: /es/contactanos/prensa/
