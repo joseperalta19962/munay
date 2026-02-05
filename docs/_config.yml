@@ -1,6 +1,7 @@
+
 title: Munay
-url: "https://joseperalta19962.github.io"   # si luego usas dominio propio lo cambiamos
-permalink: "/:path/"
+url: "https://joseperalta19962.github.io"
+baseurl: "/munay"
 
 defaults:
   - scope:
