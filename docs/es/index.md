@@ -1,10 +1,11 @@
+
 ---
 title: Inicio
-seo_title: Hogar Albergue para Niños Jesús de Nazaret
+seo_title: Munay | Albergue y rescate de perros en Huancayo, Perú
 seo_description: >-
-  El Hogar Albergue para Niños Jesús de Nazaret lleva más de dos décadas años
-  dándo amor, servicios y un mejor futuro a niños y niñas de Puerto Rico que han
-  sido víctimas de negligencia o maltrato.
+  Munay es una organización sin fines de lucro en Huancayo, Perú, dedicada al
+  rescate, cuidado y protección de perros en situación de abandono. Brindamos
+  refugio, atención veterinaria, alimentación y promovemos adopciones responsables.
 layout: default
 lang: es
 lang_ref: home-page
@@ -13,49 +14,14 @@ content_blocks:
   - _bookshop_name: carousel
     items:
       - _bookshop_name: carousel_item
-        title: La campaña Compras que Abrazan
+        title: ¡BIENVENIDOS A MUNAY!
         creation_date: 2023-04-10 12:00:00
         layout: split
         content:
           _bookshop_name: content
           content_html: >-
-            <div><span>El Hogar fue seleccionado por Walmart para ser
-            beneficiario de una&nbsp;<span>iniciativa organizada por el Sr.
-            Ángel Alvarado, gerente de Walmart PR y otras firmas
-            tales&nbsp;<span>como Colgate, Frito Lay, Pepsi, 7Up, Protex y
-            Tropicana. Durante el mes de agosto 2023, las&nbsp;<span>marcas
-            participantes van a aportar 25 centavos de cada dólar de sus ventas
-            en Walmart al&nbsp;<span>Hogar Jesús de Nazaret. Para aumentar el
-            impacto de la campaña, Walmart igualará la&nbsp;<span>cantidad total
-            de fondos recaudados por las
-            marcas.</span></span></span></span></span></span>​​</div>
-          show_container: false
-          text_alignment: left
-          background_color: white
-        image: /uploads/r-jpeg.jpg
-        image_custom_dimensions: false
-        image_width: 100
-        image_height: 25
-        image_style: contain
-        hide_from_carousel: true
-        always_show: false
-        show_call_to_action: true
-        call_to_action:
-          text: Aprende más
-          opens_donate_modal: false
-          url: /es/proximos_eventos/la-campa%C3%B1a-compras-que-abrazan
-      - _bookshop_name: carousel_item
-        title: ¡BIENVENIDOS AL HOGAR ALBERGUE JESÚS DE NAZARET!
-        creation_date: 2023-04-10 12:00:00
-        layout: split
-        content:
-          _bookshop_name: content
-          content_html: >-
-            <p>Nuestra misión es ofrecer hogar seguro, atención personal,
-            alimentación, transportación, servicios médicos, educación,
-            recreación, ayuda social y psicológica a niños y niñas víctimas de
-            maltrato. Ante todo, en nuestro Hogar los niños reciben mucho
-            AMOR.</p>
+            <p>Nuestra misión es rescatar, cuidar y proteger perros en situación de abandono y maltrato. En Munay brindamos refugio seguro, atención veterinaria, alimentación y trabajamos para lograr adopciones responsables.</p>
+            <p><b>Huancayo, Perú.</b> Tu apoyo salva vidas.</p>
           show_container: true
           text_alignment: left
           background_color: white
@@ -68,51 +34,19 @@ content_blocks:
         always_show: true
         show_call_to_action: true
         call_to_action:
-          text: El Hogar
+          text: Conócenos
           opens_donate_modal: false
           url: /es/quienes-somos/
+
       - _bookshop_name: carousel_item
-        title: La Salud Mental
+        title: Apadrina a un Perrito de Munay
         creation_date: '2023-04-10T12:00:00.000+00:00'
         layout: split
         content:
           _bookshop_name: content
           content_html: >-
-            <p>La salud mental es tan importante como la salud física. Afecta la
-            forma en que pensamos, sentimos y actuamos. Cuidar nuestra salud
-            mental es fundamental para el bienestar general.</p><p>Priorizar el
-            cuidado personal puede ayudar a reducir el estrés y mejorar el
-            estado de ánimo. Tener un sistema de apoyo es crucial para una buena
-            salud mental. Comuníquese con amigos, familiares o un profesional de
-            la salud mental si necesita hablar o recibir
-            orientación.</p><p>#mentalhealthawareness2023</p>
-          show_container: false
-          text_alignment: left
-          background_color: white
-        image: /uploads/salud-mental.png
-        image_custom_dimensions: false
-        image_width: 100
-        image_height: 25
-        image_style: contain
-        hide_from_carousel: true
-        always_show: false
-        show_call_to_action: false
-        call_to_action:
-          text: Learn More
-          opens_donate_modal: false
-          url: /en/about
-      - _bookshop_name: carousel_item
-        title: APADRINA A UN NIÑO O NIÑA DEL HOGAR
-        creation_date: '2023-04-10T12:00:00.000+00:00'
-        layout: split
-        content:
-          _bookshop_name: content
-          content_html: >-
-            <p>Nuestros niños se merecen un hogar, tener alimentos, ropa, ir a
-            la escuela, jugar, recibir cuidados de salud y mucho amor. Con tu
-            donativo mensual contribuyes a sanar las heridas de nuestros niños
-            que han sido víctimas de maltrato. ¡Únete a nuestra familia de
-            Padrinos!</p>
+            <p>Con tu donativo mensual ayudas a cubrir alimento, atención veterinaria, medicinas y cuidados para perros rescatados. Tu apoyo nos permite seguir salvando vidas y encontrando hogares responsables.</p>
+            <p>Si quieres ayudar por WhatsApp: <a href="https://wa.me/51929199613" target="_blank" rel="noopener">+51 929 199 613</a>.</p>
           show_container: true
           text_alignment: left
           background_color: white
@@ -125,11 +59,37 @@ content_blocks:
         always_show: true
         show_call_to_action: true
         call_to_action:
-          text: Donar
-          opens_donate_modal: true
-          url: /en/about
+          text: Escríbenos
+          opens_donate_modal: false
+          url: https://wa.me/51929199613
+
+      - _bookshop_name: carousel_item
+        title: Síguenos en TikTok
+        creation_date: '2023-04-10T12:00:00.000+00:00'
+        layout: split
+        content:
+          _bookshop_name: content
+          content_html: >-
+            <p>Conoce rescates, historias de recuperación y adopciones. Ayúdanos compartiendo para llegar a más personas.</p>
+            <p><a href="https://www.tiktok.com/@munay_133" target="_blank" rel="noopener">@munay_133</a></p>
+          show_container: true
+          text_alignment: left
+          background_color: white
+        image: /uploads/salud-mental.png
+        image_custom_dimensions: false
+        image_width: 100
+        image_height: 25
+        image_style: contain
+        hide_from_carousel: false
+        always_show: false
+        show_call_to_action: true
+        call_to_action:
+          text: Ver TikTok
+          opens_donate_modal: false
+          url: https://www.tiktok.com/@munay_133
+
   - _bookshop_name: simple_header
-    title: ¡El Hogar te Necesita!
+    title: ¡Munay te necesita!
     title_alignment: centered
     show_padding_top: true
     show_padding_bottom: false
@@ -137,105 +97,93 @@ content_blocks:
     title_color: '#1B0278'
     date: '2024-07-15T12:00:00.000Z'
     background_color: white
+
   - _bookshop_name: content
     content_html: >-
-      <p>La operación del Hogar es posible en gran medida gracias a subvenciones
-      de instituciones benéficas como Fondos Unidos y a donativos económicos de
-      entidades gubernamentales, organizaciones cívicas y empresas privadas. No
-      obstante, el apoyo más importante es el apoyo de la COMUNIDAD, personas
-      como tú que se comprometen a ayudarnos a continuar nuestra labor y hacer
-      la diferencia en la vida de nuestros niños.</p>
+      <p>Munay se sostiene gracias al apoyo de la comunidad: personas como tú que deciden ayudar a perros rescatados a recuperarse y encontrar un hogar. Tu aporte permite cubrir alimento, medicinas, atención veterinaria, vacunas y mejoras del albergue.</p>
+      <p>📍 Huancayo, Perú • WhatsApp: <a href="https://wa.me/51929199613" target="_blank" rel="noopener">+51 929 199 613</a> • TikTok: <a href="https://www.tiktok.com/@munay_133" target="_blank" rel="noopener">@munay_133</a></p>
     show_container: true
     text_alignment: left
     background_color: white
+
   - _bookshop_name: tiles
     tiles:
       - _bookshop_name: tile
-        title: Tile Title!
+        title: Cómo ayudar
         call_to_action:
-          text: Tile Button
-          url: https://www.google.com
+          text: Escríbenos
+          url: https://wa.me/51929199613
         has_children: true
         children:
           - _bookshop_name: tile
-            title: Dona tu Tiempo
+            title: Dona tu tiempo
             content:
               _bookshop_name: content
               content_html: >-
-                <p>Ofrecemos muchas maneras de involucrarte directamente con el
-                Hogar y ver los frutos de tu trabajo y dedicación.</p>
+                <p>Hay muchas formas de ayudar: voluntariado en el albergue, apoyo en rescates, traslados, difusión de casos y ayuda en jornadas. Tu tiempo salva vidas.</p>
               show_container: false
               text_alignment: left
               background_color: white
             call_to_action:
-              text: Ver Cómo
-              url: /es/contribuye/dona-tu-tiempo
+              text: Coordinar por WhatsApp
+              url: https://wa.me/51929199613
               style: plain
             has_children: false
             children: []
+
           - _bookshop_name: tile
-            title: Dona Artículos
+            title: Dona artículos
             content:
               _bookshop_name: content
               content_html: >-
-                <p>Para información sobre donaciones de artículos, o para
-                coordinar la entrega de los artículos, llámanos al <a
-                href="tel:7878316161">(787) 831-6161</a>.</p>
+                <p>Recibimos donaciones de alimento, medicinas, camas, mantas, correas y productos de limpieza. Escríbenos para coordinar la entrega.</p>
               show_container: false
               text_alignment: left
               background_color: white
             call_to_action:
-              text: Tile Button
-              url: https://www.google.com
+              text: Coordinar por WhatsApp
+              url: https://wa.me/51929199613
             has_children: false
             children: []
+
       - _bookshop_name: tile
-        title: Apadrina a un Niño o Niña
+        title: Apadrina a un perrito
         content:
           _bookshop_name: content
           content_html: >-
-            <p>Mediante donativos fijos mensuales, <b>TÚ</b> puedes ayudarnos a
-            sufragar los costos de  los servicios que damos a los niños durante
-            su estadía en el Hogar.</p>
+            <p>Con donativos mensuales puedes ayudar a cubrir alimento, atención veterinaria y cuidados de un perro rescatado mientras encuentra un hogar responsable.</p>
           show_container: false
           text_alignment: left
           background_color: white
         call_to_action:
-          text: Aprender Más
-          url: es/contribuye/
+          text: Hablar por WhatsApp
+          url: https://wa.me/51929199613
           image: /uploads/padrinos_program/padrinos.png
         has_children: false
         children: []
+
   - _bookshop_name: tiles
     tiles:
       - _bookshop_name: tile
-        title: Prevención Maltrato
+        title: Tenencia responsable
         content:
           _bookshop_name: content
           content_html: >-
-            <p>Más allá de su misión primordial de salvar la salud emocional,
-            mental y física de niños que han sido víctimas de maltrato, el Hogar
-            promueve iniciativas para educar a la comunidad sobre el maltrato de
-            menores en Puerto Rico, y erradicar este triste problema a través
-            del tiempo.</p>
-
-            <div class="youtube-player-container has-text-centered mt-2"
-            data-embed="biW0VL6aMfE">
-              <div class="play-button"></div>
-            </div>
+            <p>Promovemos la tenencia responsable, la esterilización y el respeto por los animales. Queremos reducir el abandono y construir una comunidad que proteja y cuide a los perros.</p>
           show_container: false
           text_alignment: left
           background_color: white
         call_to_action:
-          text: Leer Más
-          url: es/que-hacemos/educacion-y-prevencion-del-maltrato-de-menores
+          text: Ver TikTok
+          url: https://www.tiktok.com/@munay_133
         has_children: false
         children: []
+
       - _bookshop_name: tile
-        title: Tile Title!
+        title: Historias y rescates
         call_to_action:
-          text: Tile Button
-          url: https://www.google.com
+          text: Ver contenido
+          url: https://www.tiktok.com/@munay_133
         has_children: true
         children:
           - _bookshop_name: tile
@@ -243,37 +191,33 @@ content_blocks:
             content:
               _bookshop_name: content
               content_html: >-
-                <p>El Hogar ofrece sus más sinceras gracias a todos nuestros
-                patrocinadores y colaboradores que mediante donativos,
-                subvenciones, trabajo voluntario y donaciones de artículos
-                apoyan nuestra misión.</p>
+                <p>Gracias a todas las personas y emprendimientos que apoyan a Munay con donaciones, trabajo voluntario y difusión. Juntos salvamos vidas.</p>
               show_container: false
               text_alignment: left
               background_color: white
             call_to_action:
-              text: Ver Cómo
-              url: es/quienes-somos/colaboradores
+              text: Escríbenos
+              url: https://wa.me/51929199613
               style: plain
             has_children: false
             children: []
+
           - _bookshop_name: tile
-            title: Cronología Histórica
+            title: Nuestra historia
             content:
               _bookshop_name: content
               content_html: >-
-                <p>El Hogar Albergue para Niños Jesús de Nazaret lleva más de
-                dos décadas años dándo amor, servicios y un mejor futuro a niños
-                y niñas de Puerto Rico que han sido víctimas de negligencia o
-                maltrato.</p>
+                <p>Munay nace para ayudar a perros en situación de abandono en Huancayo. Rescatamos, cuidamos, rehabilitamos y buscamos adopciones responsables.</p>
               show_container: false
               text_alignment: left
               background_color: white
             call_to_action:
-              text: Aprender Más
-              url: es/quienes-somos/historia
+              text: Conócenos
+              url: /es/quienes-somos/historia
               style: plain
             has_children: false
             children: []
+
   - _bookshop_name: simple_header
     title: Noticias Recientes
     title_alignment: centered
@@ -283,6 +227,7 @@ content_blocks:
     title_color: '#1B0278'
     date: '2024-07-15T12:00:00.000Z'
     background_color: white
+
   - _bookshop_name: facebook_posts_highlights
     show_container: true
     title:
