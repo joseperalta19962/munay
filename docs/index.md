@@ -1,13 +1,12 @@
 ---
 layout: default
 title: Munay
-permalink: /
 ---
 
 <script>
-  window.location.href = "/munay/es/";
+  window.location.href = "{{ site.baseurl }}/es/";
 </script>
 
 <noscript>
-  <meta http-equiv="refresh" content="0; url=/munay/es/" />
+  <meta http-equiv="refresh" content="0; url={{ site.baseurl }}/es/" />
 </noscript>
